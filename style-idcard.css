@@ -1,0 +1,65 @@
+body {
+    background-color: white;
+	padding: 0px;
+	margin: 0px;
+	width: 8.4cm;
+	height: 5.1cm;
+	font-family: Arial;
+}
+
+A:link{ 
+    text-decoration:  none;
+}
+
+
+TABLE.outer_card {
+	position:        relative;
+	width:           8.4cm;
+	height:          5.1cm;
+	padding:         0px;
+	margin:          0px;
+	border-spacing:  0;
+	border-collapse: collapse;
+}
+
+
+TABLE.outer_card TR TD.images {
+	background-color: white;
+	width: 6.8cm;
+	height: 2.8cm;
+	padding: 0px;
+	margin: 0px;
+}
+
+TD.images IMG {
+	padding: 0px;
+	margin: 0px;
+	height: 2.8cm;
+}
+
+TD.textbox {
+	width: 7cm;
+	height: 2.3cm;
+	font-size: 1.5em;
+	font-weight: bold;
+	padding: 0px;
+	padding-left: 10px;
+	margin: 0px;
+}
+
+TD.barcode  {
+	padding: 0px;
+	margin: 0px;
+	width: 1.2cm;
+	font-size: 0.8em;
+}
+
+TD.barcode IMG {
+	width: 1.2cm;
+}
+
+.footer {
+    margin:             10px;
+    position:           absolute;
+    right:              10px;
+}

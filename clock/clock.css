@@ -1,0 +1,18 @@
+div {
+}
+
+div#intro {
+    margin-top:  2%;
+    font-size:   16pt;
+    color:       #aaa;
+}
+
+
+button {
+    color:       #aaa;
+    border:      2px solid #aaa;
+    font:        16pt calibri;
+    margin:      0.5em;
+}
+
+

@@ -1,0 +1,13 @@
+<?php
+require_once("../config.inc.php");
+require_once("../functions.inc.php");
+?>
+
+<div><a href="http://zxing.appspot.com/scan?ret=http%3A%2F%2Fregistration.coombe.local%2Fclient%2Findex.php%3Faction%3Dsign_in_out%26badge_id%3D%25AC{CODE}">Touch Here to Scan</a>
+
+
+<?php
+
+page_footer();
+unset($link);
+?>

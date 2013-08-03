@@ -1,0 +1,103 @@
+A:link { 
+    text-decoration: none;
+}
+
+
+TABLE.reg_group_block  {
+    margin:           auto;
+    margin-bottom:    20px;
+    border-collapse:  collapse;
+    border:           1px solid lightgrey;
+
+    width:            60%;
+    
+    page-break-after: always;
+}
+
+TABLE.reg_group_block  :last {
+    page-break-after: always;
+}
+
+.reg_group_block_title {
+    margin:           1x;
+    padding:          1px;
+    text-align:       center;
+    colspan:          2;
+}
+
+TABLE.reg_group_block THEAD TR TH {
+    margin:           0px;
+    border:           1px solid lightgrey;
+    padding:          1px;
+	colspan:          3;
+}
+
+TABLE.reg_group_block TR TH {
+    margin:           0px;
+    border:           1px solid lightgrey;
+    padding:          1px;
+}
+
+TABLE.reg_group_block TR TD {
+    margin:            0px;
+    border:            1px solid lightgrey;
+    padding-left:      3px;
+	page-break-inside: avoid;
+	page-break-before: auto;
+}
+
+.reg_group_block_actions {
+    visibility:       collapse;
+}
+
+
+
+TABLE.outer_card {
+	width: 8.5cm;
+	height: 5.3cm;
+	background: white;
+    page-break-after: always;
+}
+
+TABLE.card  TD {
+	padding: 0px;
+	margin: 0px;
+}
+
+
+TD.images {
+	width: 7cm;
+	height: 2.8cm;
+	padding: 9px;
+	background: white;
+	padding: 0px;
+	margin: 0px;
+}
+
+TD.images IMG {
+	padding: 0px;
+	margin: 0px;
+	height: 2.8cm;
+}
+
+TABLE.card_left TR TD.textbox {
+	background: pink;
+	width: 7cm;
+	height: 2.5cm;
+	font-size: 2em;
+	color: black;
+	font-weight: bold;
+	padding: 0px;
+}
+
+
+SPAN.barcode_area IMG {
+	width: 2.5cm;
+	height: 5cm;
+
+}
+
+BODY {
+margin: 0px;
+padding: 0px;
+}

@@ -1,0 +1,343 @@
+body {
+    background-color:    #ffffee;
+}
+
+A:link{ 
+    text-decoration:     none;
+}
+
+DIV.headdiv {
+    background-color:    #12ad2b;
+    color:               white;
+    text-align:          center;
+    width:               100%;
+}
+
+DIV.headdiv H1 {
+    padding:             7px;
+    color:               white;
+}
+
+DIV.main {
+    padding:             1em;
+}
+
+DIV.form {
+    width:               60%;
+    margin:              auto;
+    border:              0px solid black;
+    text-align:          center;
+}
+
+DIV.instructions {
+    margin:              auto;
+    text-align:          center;
+    font-size:           90px;
+}
+
+DIV.actions {
+    right:               5px;
+    top:                 20px;
+    background:          white;
+    position:            fixed;
+    margin:              auto;
+    border:              1px solid grey;
+    border-radius:       8px;
+    padding:             10px;
+    z-index:             10;
+}
+
+DIV.actions UL {
+    margin:              0px;
+}
+
+DIV.actions UL LI {
+    margin:              0px;
+}
+
+INPUT.badge_id {
+    width:               100%;
+    border:              1px solid black;
+}
+
+TABLE.outer TR TD {
+    vertical-align:      top;
+    padding:             10px;
+}
+
+TABLE.reg_group_block  {
+    margin:              auto;
+    margin-bottom:       20px;
+    border-collapse:     collapse;
+    border:              1px solid green;
+
+    width:               60%;
+
+    page-break-after:    always;
+}
+
+TABLE.reg_group_block  :last {
+    page-break-after:    always;
+}
+
+
+.reg_group_block_title {
+    margin:              5px;
+    padding:             5px;
+    color:               white;
+    background:          green;
+    text-align:          center;
+    colspan:             2;
+}
+
+TABLE.reg_group_block  TR TH {
+    margin:              0px;
+    border:              1px solid green;
+    padding:             5px;
+    background:          #00a600;
+    colspan:             4;
+}
+
+TABLE.reg_group_block  TR TH.reg_group_block_name {
+    width: 75%;
+}
+
+TABLE.reg_group_block  TR TH.reg_group_block_empty {
+    width: 5%;
+}
+
+TABLE.reg_group_block  TR TH.reg_group_block_actions {
+    width: 15%;
+}
+
+TABLE.reg_group_block TR TD {
+    margin:              0px;
+    border:              1px solid green;
+    padding:             5px;
+}
+
+TABLE.reg_group_block TR TD.reg_group_block_inout_in {
+    background:          #b1f2ae;
+    font-size:           1.8em;
+    width:               2%;
+}
+
+TABLE.reg_group_block TR TD.reg_group_block_inout_out {
+    background:          #f2aeae;
+    font-size:           1.8em;
+    width:               2%;
+}
+
+TABLE.reg_group_block TR TD.reg_group_block_spacer {
+    white-space:         nowrap;
+    width:               2%;
+}
+
+TABLE.reg_group_block TR TD.reg_group_block_actions {
+    white-space:         nowrap;
+    width:               2%;
+}
+
+TABLE.reg_group_block TR:nth-child(odd)  {
+    background:          #ffffff;
+}
+
+TABLE.reg_group_block TR:nth-child(even) {
+    background:          #eeeeee;
+}
+
+
+/* increase size for notices */
+.notice {
+    font-size:           150%;
+}
+
+/* set background images for notification boxes */
+.error {
+    background-image:    url("/images/dialog-error.png");
+    background-repeat:   no-repeat;
+    background-position: 8px center;
+    background-origin:   padding;
+
+    padding-left:        50px;
+}
+
+.notice {
+    background-image:    url("/images/dialog-warning.png");
+    background-repeat:   no-repeat;
+    background-position: 8px center;
+    background-origin:   padding;
+
+    padding-left:        50px;
+}
+
+.success {
+    background-image:    url("/images/weather-clear.png");
+    background-repeat:   no-repeat;
+    background-position: 8px center;
+    background-origin:   padding;
+
+    padding-left:        50px;
+}
+
+.info {
+    background-image:    url("/images/dialog-information.png");
+    background-repeat:   no-repeat;
+    background-position: 8px center;
+    background-origin:   padding;
+
+    padding-left:        50px;
+}
+
+
+TABLE.form_table {
+    width:               10px;
+    margin:              auto;
+    border:              1px solid #888888;
+    border-radius:       5px;
+    padding:             10px;
+}
+
+TD {
+    padding:             5px;
+}
+
+
+TABLE.form_table TR:nth-child(odd)  TD {
+    background:          #f8f8f8;
+}
+
+TABLE.form_table TR:nth-child(even)  TD{
+    background:          #ffffff;
+}
+
+TABLE.info {
+    border:              1px solid #cccccc;
+    background:          #eeeeee;
+    float:               right;
+}
+
+TABLE.data  {
+    border:              1px solid #93A391;
+    background:          #ffffff;
+}
+
+TABLE.data TR TH {
+    background:          #C5D6C3;
+    padding:             5px;
+}
+
+TABLE.data  TR:nth-child(even)  {
+    background:          #ffffff;
+}
+
+TABLE.data TR:nth-child(odd)  {
+    background:          #eeeeee;
+}
+
+
+SPAN.name {
+    font-size:           1.5em;
+}
+/*
+TABLE.card {
+    width:               8.5cm;
+    height:              5.3cm;
+    background:          white;
+    page-break-after:    always;
+}
+
+TABLE.card  TD {
+    padding:             0px;
+    margin:              0px;
+}
+
+
+TD.images {
+    width:               7cm;
+    height:              2.8cm;
+    padding:             9px;
+    background:          white;
+    padding:             0px;
+    margin:              0px;
+}
+
+TD.images IMG {
+    padding:             0px;
+    margin:              0px;
+    height:              2.8cm;
+}
+
+TABLE.card_left TR TD.textbox {
+    background:          pink;
+    width:               7cm;
+    height:              2.5cm;
+    font-size:           2em;
+    color:               black;
+    font-weight:         bold;
+    padding:             0px;
+}
+
+
+SPAN.barcode_area IMG {
+    width:               2.5cm;
+    height:              5cm;
+
+}*/
+
+
+
+TABLE.outer_card {
+    position:            relative;
+    width:               8.5cm;
+    height:              5.3cm;
+}
+
+
+TD.images {
+    background:          white;
+    width:               6.8cm;
+    height:              2.8cm;
+    padding:             0px;
+    margin:              0px;
+}
+
+TD.images IMG {
+    padding:             0px;
+    margin:              0px;
+    height:              2.8cm;
+}
+
+TD.textbox {
+    background:          pink;
+    width:               7cm;
+    height:              2.5cm;
+    font-size:           2em;
+    color:               black;
+    font-weight:         bold;
+    padding:             0px;
+}
+
+TD.barcode  {
+    width:               1.4cm;
+}
+
+TD.barcode IMG {
+    width:               1.5cm;
+}
+
+.footer {
+    margin:              10px;
+    position:            absolute;
+    right:               10px;
+}
+
+div#time {
+    text-align:  center;
+    font-size:   20pt;
+}
+
+div#date {
+    text-align:  center;
+    font-size:   10pt;
+}
